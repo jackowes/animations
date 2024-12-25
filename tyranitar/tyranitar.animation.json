@@ -5,7 +5,8 @@
 			"loop": true,
 			"bones": {
 				"leg_right": {
-					"rotation": [0, 15, 0]
+					"rotation": [0, "15 + 2*math.sin( q.anim_time * 90)", 12],
+					"position": [0, -1, 0]
 				},
 				"torso": {
 					"rotation": [15, 0, 0],
@@ -39,10 +40,10 @@
 					"rotation": [15, -2.5, "-20 - 4*math.cos( q.anim_time * 90 - 90)"]
 				},
 				"arm_right2": {
-					"rotation": [10.53252, -16.3619, "-10.3866 - 4*math.sin( q.anim_time * 90 - 105)"]
+					"rotation": [10.53252, -16.3619, "-10.3866 - 4*math.sin( q.anim_time * 90 - 90)"]
 				},
 				"hand_right": {
-					"rotation": [8.03252, -16.3619, "-10.3866 - 4*math.sin( q.anim_time * 90 - 105)"]
+					"rotation": [8.03252, -16.3619, "-10.3866 - 4*math.sin( q.anim_time * 90 - 90)"]
 				},
 				"finger_index_right": {
 					"rotation": [0, -17.5, 0]
@@ -54,13 +55,117 @@
 					"rotation": [15, 2.5, "20 + 4*math.cos( q.anim_time * 90 - 90)"]
 				},
 				"arm_left2": {
-					"rotation": [10.53252, 16.3619, "10.3866 + 4*math.sin( q.anim_time * 90 - 105)"]
+					"rotation": [10.53252, 16.3619, "10.3866 + 4*math.sin( q.anim_time * 90 - 90)"]
 				},
 				"hand_left": {
-					"rotation": [8.03252, 16.3619, "10.3866 + 4*math.sin( q.anim_time * 90 - 105)"]
+					"rotation": [8.03252, 16.3619, "10.3866 + 4*math.sin( q.anim_time * 90 - 90)"]
 				},
 				"leg_left": {
-					"rotation": [0, -15, 0]
+					"rotation": [0, "-15 - 2*math.sin( q.anim_time * 90)", -12],
+					"position": [0, -1, 0]
+				},
+				"foot_left": {
+					"rotation": [0, "0 + 2*math.sin( q.anim_time * 90)", 12]
+				},
+				"foot_right": {
+					"rotation": [0, "0 - 2*math.sin( q.anim_time * 90)", -12]
+				}
+			}
+		},
+		"animation.tyranitar.battle_idle": {
+			"loop": true,
+			"animation_length": 6.2917,
+			"bones": {
+				"leg_right": {
+					"rotation": [2.05852, "19.8656 + 2*math.sin( q.anim_time * 90)", 12.18559]
+				},
+				"torso": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, "0.3*math.sin( q.anim_time * 90 )", 0]
+				},
+				"chest": {
+					"rotation": ["-15 - math.sin( q.anim_time * 90 )", 0, 0]
+				},
+				"tail": {
+					"rotation": ["-30 + 2*math.sin( q.anim_time * 90 )", "2*math.sin( q.anim_time * 90 * 2 )", 0]
+				},
+				"tail2": {
+					"rotation": ["12.5 + 2*math.sin( q.anim_time * 90 )", "2*math.sin( q.anim_time * 90 * 2 - 20 )", 0]
+				},
+				"tail3": {
+					"rotation": ["17.5 + 2*math.sin( q.anim_time * 90 )", "8*math.sin( q.anim_time * 90 * 2 - 40)", 0]
+				},
+				"tail4": {
+					"rotation": ["2.5 + 2*math.sin( q.anim_time * 90 )", "8*math.sin( q.anim_time * 90 * 2 - 90)", 0]
+				},
+				"tail5": {
+					"rotation": ["12.5 + 2*math.sin( q.anim_time * 90 )", "8*math.sin( q.anim_time * 90 * 2 - 135)", 0]
+				},
+				"neck": {
+					"rotation": ["7.7175 - 2*math.sin( q.anim_time * 90 - 90 )", -16.85411, 6.32061]
+				},
+				"chest2": {
+					"rotation": [15, -2.5, 0]
+				},
+				"arm_right": {
+					"rotation": [-3.31914, -14.63639, "-7.0735 - 4*math.cos( q.anim_time * 90 - 105)"]
+				},
+				"arm_right2": {
+					"rotation": [-2.06421, -23.85727, "-10.1058 - 4*math.sin( q.anim_time * 90 - 105)"]
+				},
+				"hand_right": {
+					"rotation": [-36.96748, -16.3619, "-10.3866 + 4*math.sin( q.anim_time * 90 - 105)"],
+					"position": [0, -3, 1]
+				},
+				"finger_index_right": {
+					"rotation": [9.61518, -14.6914, -33.7424]
+				},
+				"finger_ring_right": {
+					"rotation": [-8.73739, 12.2403, -35.93866]
+				},
+				"arm_left": {
+					"rotation": [-5.23619, 14.0761, "-0.647 + 4*math.cos( q.anim_time * 90 - 105)"]
+				},
+				"arm_left2": {
+					"rotation": [-2.06421, 23.85727, "10.1058 + 4*math.sin( q.anim_time * 90 - 105)"]
+				},
+				"hand_left": {
+					"rotation": [-36.96748, 16.3619, "-0.647 - 4*math.cos( q.anim_time * 90 - 105)"],
+					"position": [0, -3, 1]
+				},
+				"leg_left": {
+					"rotation": [2.0585, "-19.8656 - 2*math.sin( q.anim_time * 90)", -12.18559],
+					"position": [0, -1, 0]
+				},
+				"body": {
+					"rotation": [0, 25, 0]
+				},
+				"finger_index_left": {
+					"rotation": [9.61518, 14.6914, 33.7424]
+				},
+				"finger_middle_left": {
+					"rotation": [0, 0, 37.5]
+				},
+				"finger_ring_left": {
+					"rotation": [-8.73739, -12.2403, 35.93866]
+				},
+				"finger_middle_right": {
+					"rotation": [0, 0, -37.5]
+				},
+				"neck2": {
+					"rotation": ["7.5 + 2*math.sin( q.anim_time * 90 - 90 )", -7.5, 0]
+				},
+				"head_rotation": {
+					"rotation": ["-32.4011 + 3*math.sin( q.anim_time * 90 - 90 )", 2.68407, 4.22005]
+				},
+				"jaw": {
+					"rotation": ["30 - 8*math.sin( q.anim_time * 90 - 135 )", 0, 0]
+				},
+				"foot_left": {
+					"rotation": [0, "0 + 2*math.sin( q.anim_time * 90)", 12]
+				},
+				"foot_right": {
+					"rotation": [0, "0 - 2*math.sin( q.anim_time * 90)", -12]
 				}
 			}
 		},
@@ -165,6 +270,9 @@
 					"effect": "pokemon.tyranitar.cry"
 				}
 			}
+		},
+		"animation.tyranitar.ground_walk": {
+			"loop": true
 		}
 	}
 }
