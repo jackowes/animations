@@ -142,15 +142,17 @@
 					"name": "wing_left",
 					"parent": "torso",
 					"pivot": [6, 20.5, 0],
-					"rotation": [12.5, 0, 0]
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [6, 12.5, 0], "size": [5, 12, 0], "uv": [49, 75], "mirror": true}
+					]
 				},
 				{
 					"name": "wing2_left",
 					"parent": "wing_left",
 					"pivot": [11, 14.5, 0],
 					"cubes": [
-						{"origin": [11, 11.5, 0], "size": [8, 14, 0], "inflate": 0.01, "uv": [31, 75], "mirror": true},
-						{"origin": [6, 12.5, 0], "size": [5, 12, 0], "uv": [49, 75], "mirror": true}
+						{"origin": [11, 11.5, 0], "size": [8, 14, 0], "inflate": 0.01, "uv": [31, 75], "mirror": true}
 					]
 				},
 				{
