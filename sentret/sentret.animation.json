@@ -382,6 +382,18 @@
 					}
 				}
 			}
+		},
+		"animation.sentret.sleep_WIP": {
+			"loop": true
+		},
+		"animation.sentret.walk_speed_TEST": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"sentret": {
+					"position": [0, 0, "q.anim_time * -6.5 + 30"]
+				}
+			}
 		}
 	}
 }
