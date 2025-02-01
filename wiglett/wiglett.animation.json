@@ -619,6 +619,10 @@
 						"0.5417": {
 							"pre": [0, 0.1, 0],
 							"post": [0, 0, 0]
+						},
+						"2.375": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.1, 0]
 						}
 					}
 				},
@@ -628,12 +632,16 @@
 						"0.5417": {
 							"pre": [0, 0.1, 0],
 							"post": [0, 0, 0]
+						},
+						"2.375": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.1, 0]
 						}
 					}
 				}
 			}
 		},
-		"animation.wiglett.physical_wip": {
+		"animation.wiglett.physical": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -734,6 +742,10 @@
 							"post": [14.04898, -2.70226, -0.7457],
 							"lerp_mode": "catmullrom"
 						},
+						"1.2917": {
+							"post": [17.63, -3.01, 6.42],
+							"lerp_mode": "catmullrom"
+						},
 						"1.5833": {
 							"post": [3.79845, -3.04462, 4.24886],
 							"lerp_mode": "catmullrom"
@@ -798,12 +810,12 @@
 							"post": [14.40023, -0.63172, -16.06052],
 							"lerp_mode": "catmullrom"
 						},
-						"1.375": {
-							"post": [14.70357, 0.93692, 12.34574],
+						"1.2917": {
+							"post": [14.70357, 0.93692, 17.94574],
 							"lerp_mode": "catmullrom"
 						},
-						"1.5833": {
-							"post": [4.60357, 0.93692, 12.34574],
+						"1.5": {
+							"post": [4.60357, 0.93692, 17.94574],
 							"lerp_mode": "catmullrom"
 						},
 						"1.8333": {
@@ -811,11 +823,11 @@
 							"lerp_mode": "catmullrom"
 						},
 						"2.0417": {
-							"post": [-0.87121, 1.84129, -5.12253],
+							"post": [-7.67121, 1.84129, -5.12253],
 							"lerp_mode": "catmullrom"
 						},
 						"2.3333": {
-							"post": [6.62879, 1.84129, -5.12253],
+							"post": [-4.07121, 1.84129, -5.12253],
 							"lerp_mode": "catmullrom"
 						},
 						"2.75": {
@@ -859,15 +871,15 @@
 							"lerp_mode": "catmullrom"
 						},
 						"1.25": {
-							"post": [2.75131, -4.7919, -12.77829],
+							"post": [16.05131, -4.7919, -13.97829],
 							"lerp_mode": "catmullrom"
 						},
 						"1.2917": {
-							"post": [11.62912, -2.28359, 8.86308],
+							"post": [23.92912, -2.28359, 12.96308],
 							"lerp_mode": "catmullrom"
 						},
 						"1.375": {
-							"post": [5.80357, 0.93692, 12.34574],
+							"post": [5.80357, 0.93692, 16.44574],
 							"lerp_mode": "catmullrom"
 						},
 						"1.5833": {
@@ -934,8 +946,8 @@
 							"post": [20.08616, 0.74397, -9.57965],
 							"lerp_mode": "catmullrom"
 						},
-						"1.2917": {
-							"post": [19.00357, 0.93692, 12.34574],
+						"1.3333": {
+							"post": [23.00357, 0.93692, 12.34574],
 							"lerp_mode": "catmullrom"
 						},
 						"1.5833": {
@@ -1003,11 +1015,11 @@
 							"lerp_mode": "catmullrom"
 						},
 						"1.5833": {
-							"post": [-11.22, -1.57829, 13.34543],
+							"post": [-4.82, -1.57829, 3.34543],
 							"lerp_mode": "catmullrom"
 						},
 						"1.75": {
-							"post": [-10.77872, -0.99554, 3.37685],
+							"post": [-4.37872, -0.99554, -1.62315],
 							"lerp_mode": "catmullrom"
 						},
 						"1.9583": {
@@ -1168,7 +1180,7 @@
 				}
 			}
 		},
-		"animation.wiglett.special_old": {
+		"animation.wiglett.special": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -2055,25 +2067,37 @@
 				"eyelid_left": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.25": {"pre": [0, 0, 0], "post": [0, 0.1, 0]}
+						"0.25": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.1, 0]
+						}
 					}
 				},
 				"eyelid_right": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.25": {"pre": [0, 0, 0], "post": [0, 0.1, 0]}
+						"0.25": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.1, 0]
+						}
 					}
 				},
 				"eye_sad_left": {
 					"position": {
 						"0.0": [0, 0.1, 0],
-						"0.25": {"pre": [0, 0.1, 0], "post": [0, 0, 0]}
+						"0.25": {
+							"pre": [0, 0.1, 0],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"eye_sad_right": {
 					"position": {
 						"0.0": [0, 0.1, 0],
-						"0.25": {"pre": [0, 0.1, 0], "post": [0, 0, 0]}
+						"0.25": {
+							"pre": [0, 0.1, 0],
+							"post": [0, 0, 0]
+						}
 					}
 				}
 			}
@@ -2224,9 +2248,6 @@
 				}
 			}
 		},
-		"animation.wiglett.PAST_THIS_IS_WIP": {
-			"loop": true
-		},
 		"animation.wiglett.battle_pose": {
 			"loop": true,
 			"bones": {
@@ -2252,6 +2273,9 @@
 					"rotation": [30.5, 0, 0]
 				}
 			}
+		},
+		"animation.wiglett.PAST_THIS_IS_WIP": {
+			"loop": true
 		},
 		"animation.wiglett.physical_old": {
 			"animation_length": 3,
