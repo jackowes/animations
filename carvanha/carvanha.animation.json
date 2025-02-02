@@ -1,0 +1,172 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cavanha.water_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [
+						"math.sin( q.anim_time * 90 * 2 - 90)*2 + math.cos( q.anim_time * 90 * 1)*-2",
+						"math.cos( q.anim_time * 90 * 1 - 90)*2",
+						"math.sin( q.anim_time * 90 * 0.8 - 90)*3"
+					],
+					"position": ["math.sin( q.anim_time * 90 * 1 - 90)*-0.5", "math.sin( q.anim_time * 90 * 2)*1", "math.sin( q.anim_time * 90 * 1)*0.5"]
+				},
+				"jaw": {
+					"rotation": ["10 + math.sin( q.anim_time * 90 * 2.1 - 45)*5 + math.sin( q.anim_time * 90 * 0.9 - 45)*5", 0, 0]
+				},
+				"fin_right": {
+					"rotation": ["math.cos( q.anim_time * 90 * 1 + 45)*-10", 0, "-(math.cos( q.anim_time * 90 * 2 +90)*-10)"]
+				},
+				"fin_right2": {
+					"rotation": [0, 0, "-(math.cos( q.anim_time * 90 * 2 + 45)*-10)"]
+				},
+				"fin_left": {
+					"rotation": ["math.cos( q.anim_time * 90 * 1 + 45)*-10", 0, "math.cos( q.anim_time * 90 * 2 +90)*-10"]
+				},
+				"fin_left2": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 2 + 45)*-10"]
+				},
+				"tail2": {
+					"rotation": ["math.sin( q.anim_time * 90 * 2 - 90 - 45)*2", "math.cos( q.anim_time * 90 * 1 - 135)*4", 0]
+				},
+				"tail3": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 1 - 145)*4", 0]
+				},
+				"tail4": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 1 - 175)*4", 0]
+				},
+				"bottom_fin": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 1 + 90)*3"]
+				}
+			}
+		},
+		"animation.cavanha.water_battle_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["7 + math.sin( q.anim_time * 90 * 1.5 - 90 -45)*-4", "math.cos( q.anim_time * 90 * 2 - 45)*8", "math.cos( q.anim_time * 90 * 2 - 90)*-2"],
+					"position": ["math.sin( q.anim_time * 90 * 2 - 90)*-0.5", "math.sin( q.anim_time * 90 * 1.5 - 90)*-0.5", "math.sin( q.anim_time * 90 * 1.5 - 90)*-0.5"]
+				},
+				"jaw": {
+					"rotation": ["30 + math.sin( q.anim_time * 90 * 4)*5 + math.sin( q.anim_time * 90 * 3 + 45)*5", 0, 0]
+				},
+				"fin_right": {
+					"rotation": ["-20 + math.sin( q.anim_time * 90 * 1.5)*5", 0, "-(math.sin( q.anim_time * 90 * 1.5 - 45)*-20)"]
+				},
+				"fin_right2": {
+					"rotation": [0, 0, "-(math.sin( q.anim_time * 90 * 1.5 - 45)*-10)"]
+				},
+				"fin_left": {
+					"rotation": ["-20 + math.sin( q.anim_time * 90 * 1.5)*5", 0, "math.sin( q.anim_time * 90 * 1.5 - 45)*-20"]
+				},
+				"fin_left2": {
+					"rotation": [0, 0, "math.sin( q.anim_time * 90 * 1.5 - 45)*-10"]
+				},
+				"tail": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 2 - 135)*6", 0]
+				},
+				"tail2": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 2 - 135)*8", 0]
+				},
+				"tail3": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 2 - 165)*8", 0]
+				},
+				"tail4": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 2 - 195)*8", 0]
+				},
+				"bottom_fin": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 2 + 90)*3"]
+				}
+			}
+		},
+		"animation.cavanha.water_swim": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["math.sin( q.anim_time * 90 * 1)*5", "math.cos( q.anim_time * 90 * 4 - 45)*8", "math.cos( q.anim_time * 90 * 4 )*-4"],
+					"position": ["math.sin( q.anim_time * 90 * 4 - 90)*-2", "math.sin( q.anim_time * 90 * 1 - 90)*-1.5", 0]
+				},
+				"fin_right": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 1 - 90)*10"]
+				},
+				"fin_right2": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 1 - 135)*5"]
+				},
+				"fin_left": {
+					"rotation": [0, 0, "-(math.cos( q.anim_time * 90 * 1 - 90)*10)"]
+				},
+				"fin_left2": {
+					"rotation": [0, 0, "-(math.cos( q.anim_time * 90 * 1 - 135)*5)"]
+				},
+				"tail": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 4 - 135)*6", 0]
+				},
+				"tail2": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 4 - 135)*12", 0]
+				},
+				"tail3": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 4 - 145)*12", 0]
+				},
+				"tail4": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 4 - 175)*20", 0]
+				},
+				"bottom_fin": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.carvanha.quirk_bite": {
+			"loop": true
+		},
+		"animation.carvanha.swim test": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, 0, "q.anim_time * 90 * -0.5"]
+				}
+			}
+		},
+		"animation.carvanha.pose2": {
+			"loop": true
+		},
+		"animation.carvanha.pose": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [7.50706, -0.32621, -12.47864]
+				},
+				"torso": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"jaw": {
+					"rotation": [45, 0, 0]
+				},
+				"fin_right": {
+					"rotation": [14.51082, -3.84097, 14.51082]
+				},
+				"fin_right2": {
+					"rotation": [0, 10, 17.5]
+				},
+				"fin_left": {
+					"rotation": [14.51082, 3.84097, -14.51082]
+				},
+				"fin_left2": {
+					"rotation": [0, -10, -17.5]
+				},
+				"tail": {
+					"rotation": [5.12076, -12.45167, -1.10693]
+				},
+				"tail2": {
+					"rotation": [0, -25, 0]
+				},
+				"tail3": {
+					"rotation": [0, -5, 0]
+				},
+				"tail4": {
+					"rotation": [0, -27.5, 0]
+				}
+			}
+		}
+	}
+}
