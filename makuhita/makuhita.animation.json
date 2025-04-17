@@ -368,7 +368,7 @@
 				}
 			}
 		},
-		"animation.makuhita.physical": {
+		"animation.makuhita.physical_WIP": {
 			"animation_length": 3,
 			"bones": {
 				"leg_right": {
@@ -1918,7 +1918,7 @@
 			"loop": true,
 			"bones": {
 				"makuhita": {
-					"position": [0, 0, "40 + q.anim_time * -10"]
+					"position": [0, 0, "40 + q.anim_time * 90 * -0.12"]
 				}
 			}
 		},

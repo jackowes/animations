@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.cavanha.water_idle": {
+		"animation.carvanha.water_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -41,7 +41,7 @@
 				}
 			}
 		},
-		"animation.cavanha.water_battle_idle": {
+		"animation.carvanha.water_battle_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -80,7 +80,7 @@
 				}
 			}
 		},
-		"animation.cavanha.water_sleep": {
+		"animation.carvanha.water_sleep": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -122,7 +122,7 @@
 				}
 			}
 		},
-		"animation.cavanha.water_swim": {
+		"animation.carvanha.water_swim": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -157,9 +157,6 @@
 					"rotation": [0, 0, 0]
 				}
 			}
-		},
-		"animation.model.recoil": {
-			"loop": true
 		},
 		"animation.carvanha.quirk_bite": {
 			"animation_length": 1.25,
@@ -388,6 +385,9 @@
 			}
 		},
 		"animation.carvanha.pose2": {
+			"loop": true
+		},
+		"animation.carvanha.recoil_WIP": {
 			"loop": true
 		}
 	}
