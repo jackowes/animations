@@ -4,14 +4,11 @@
 		"animation.noctowl.ground_idle": {
 			"loop": true,
 			"bones": {
-				"waist": {
-					"rotation": [7.5, "math.sin( q.anim_time * 90 )", "math.sin( q.anim_time * 90 )*2"]
-				},
 				"tail": {
 					"rotation": ["-22.5 + math.sin( q.anim_time * 90 * 2)*-2", 0, 0]
 				},
 				"torso": {
-					"rotation": ["-13.1758 + math.sin( q.anim_time * 90 * 2)*-0.5", 0, 0],
+					"rotation": ["1.8242 + math.sin( q.anim_time * 90 * 2)*-0.5", 0, 0],
 					"position": [0, "math.sin( q.anim_time * 90 * 2)*0.2", 0]
 				},
 				"neck": {
@@ -103,14 +100,14 @@
 			"animation_length": 1,
 			"bones": {
 				"body": {
-					"rotation": ["15 + math.sin( q.anim_time * 90 * 4 - 40)*-4", 0, 0],
+					"rotation": ["29 + math.sin( q.anim_time * 90 * 4 - 40)*-4", 0, 0],
 					"position": [0, "math.sin( q.anim_time * 90 * 4 - 40)*3", "math.sin( q.anim_time * 90 * 4 - 40)*1"]
 				},
 				"tail": {
 					"rotation": ["math.cos( q.anim_time * 90 * 4 - 40)*-10", 0, 0]
 				},
 				"head": {
-					"rotation": ["-4.5 + math.sin( q.anim_time * 90 * 4 - 45)*4", 0, 0],
+					"rotation": ["-17.5 + math.sin( q.anim_time * 90 * 4 - 45)*4", 0, 0],
 					"position": [0, 0, "-math.sin( q.anim_time * 90 * 4)*0.25"]
 				},
 				"eyes": {
@@ -428,7 +425,7 @@
 				"wing_open_left1": {
 					"rotation": {
 						"0.0": {
-							"post": [59.86915, 57.19539, 48.66866],
+							"post": [64.04754, 45.14106, 54.00138],
 							"lerp_mode": "catmullrom"
 						},
 						"0.1667": {
@@ -444,7 +441,7 @@
 							"lerp_mode": "catmullrom"
 						},
 						"1.0": {
-							"post": [59.86915, 57.19539, 48.66866],
+							"post": [64.04754, 45.14106, 54.00138],
 							"lerp_mode": "catmullrom"
 						}
 					},
@@ -526,7 +523,7 @@
 				"wing_open_right1": {
 					"rotation": {
 						"0.0": {
-							"post": [59.86915, -57.19539, -48.66866],
+							"post": [64.04754, -45.14106, -54.00138],
 							"lerp_mode": "catmullrom"
 						},
 						"0.1667": {
@@ -542,7 +539,7 @@
 							"lerp_mode": "catmullrom"
 						},
 						"1.0": {
-							"post": [59.86915, -57.19539, -48.66866],
+							"post": [64.04754, -45.14106, -54.00138],
 							"lerp_mode": "catmullrom"
 						}
 					},
@@ -1111,7 +1108,7 @@
 				"neck": {
 					"rotation": [
 						"q.r.pitch_change(0)*-20 + math.pow(math.clamp(q.r.roll(0),-0.35,0.35)*180 - math.pow(q.r.roll(0),3)*180*0.35,2)*-0.005",
-						"math.clamp(q.r.roll(0),-1,1)*180 - math.pow(q.r.roll(0),3)*180*0.35*0",
+						"math.clamp(q.r.roll(0),-0.35,0.35)*180 - math.pow(q.r.roll(0),3)*180*0.35",
 						"q.r.yaw_change(0)*-10"
 					]
 				},
@@ -1175,7 +1172,7 @@
 		"animation.noctowl.no_wangs": {
 			"loop": true,
 			"bones": {
-				"wings_closed": {
+				"wings_open": {
 					"scale": 0
 				}
 			}
